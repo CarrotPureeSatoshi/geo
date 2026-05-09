@@ -97,6 +97,23 @@ Output: a `<script type="application/ld+json">` block with `@type: HowTo`, `tota
 - **No telemetry.** The plugin doesn't phone home.
 - **MIT licensed** — fork it, audit it, modify it.
 
+## Repository layout
+
+```
+.
+├── .claude-plugin/
+│   └── marketplace.json     ← marketplace manifest (this is what /plugin marketplace add reads)
+├── plugin/                  ← the plugin itself
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   ├── skills/
+│   └── agents/
+├── tests/examples/          ← good/bad post fixtures
+├── README.md
+├── LICENSE
+└── CHANGELOG.md
+```
+
 ## How citability is scored
 
 The scoring rubric covers ten dimensions:
