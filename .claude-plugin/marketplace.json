@@ -9,7 +9,10 @@
   "plugins": [
     {
       "name": "geo",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "CarrotPureeSatoshi/geo"
+      },
       "description": "Audit, score and rewrite content for citability by AI search engines (ChatGPT, Claude, Perplexity, Google AI Overviews). 6 skills + coordinator agent. All analysis local, no external SaaS calls.",
       "version": "0.1.0",
       "category": "development",
