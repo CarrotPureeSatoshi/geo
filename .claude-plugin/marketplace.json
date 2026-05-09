@@ -1,0 +1,29 @@
+{
+  "name": "geo",
+  "description": "Generative Engine Optimization plugin for Claude Code — audit, score and rewrite content for AI search citability.",
+  "owner": {
+    "name": "Kevin Gibaud (Swoft)",
+    "email": "kevin.gibaud@devapps4biz.com",
+    "url": "https://swoft.ai"
+  },
+  "plugins": [
+    {
+      "name": "geo",
+      "source": ".",
+      "description": "Audit, score and rewrite content for citability by AI search engines (ChatGPT, Claude, Perplexity, Google AI Overviews). 6 skills + coordinator agent. All analysis local, no external SaaS calls.",
+      "version": "0.1.0",
+      "category": "development",
+      "keywords": [
+        "geo",
+        "generative-engine-optimization",
+        "ai-seo",
+        "aeo",
+        "llm-seo",
+        "content-optimization",
+        "citability"
+      ],
+      "homepage": "https://github.com/CarrotPureeSatoshi/geo",
+      "license": "MIT"
+    }
+  ]
+}
