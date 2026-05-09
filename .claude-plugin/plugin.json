@@ -1,0 +1,26 @@
+{
+  "name": "geo",
+  "version": "0.1.0",
+  "description": "Generative Engine Optimization linter for devs. Audit, score and improve your docs, blog posts and landing pages so they get cited by AI search engines (ChatGPT, Claude, Perplexity, Google AI Overviews).",
+  "author": {
+    "name": "Kevin Gibaud (Swoft)",
+    "email": "kevin.gibaud@devapps4biz.com",
+    "url": "https://swoft.ai"
+  },
+  "homepage": "https://github.com/CarrotPureeSatoshi/geo",
+  "repository": "https://github.com/CarrotPureeSatoshi/geo",
+  "license": "MIT",
+  "category": "development",
+  "keywords": [
+    "geo",
+    "generative-engine-optimization",
+    "ai-seo",
+    "aeo",
+    "llm-seo",
+    "content-optimization",
+    "citability",
+    "schema-markup",
+    "ai-search",
+    "documentation"
+  ]
+}
